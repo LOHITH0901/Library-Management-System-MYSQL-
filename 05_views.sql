@@ -1,0 +1,1 @@
+CREATE VIEW Current_Borrowed AS SELECT * FROM Borrowed_Books WHERE return_date IS NULL;
